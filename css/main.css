@@ -13,18 +13,9 @@ html {
 }
 
 main {
-	margin: ;
+	margin: 0;
+	padding: 0;
 }
-
-header {
-	font-family: , serif;
-	background-color: ;
-	color: ;
-	margin: 0em;
-	text-align: center;
-	text-decoration: none;
-}
-
 
 h1 {
 	font-family: 'Noto Sans', sans-serif;
@@ -39,42 +30,14 @@ h1 {
 
 
 h2 {
-	color: ;
-	background-color: ;
 	font-family: 'Noto Sans', sans-serif;
-	font-weight: ;
 	font-size: 2rem;
-	font-style: ;
 	text-decoration: none;
-	line-height:;
 	text-align: center;
 	padding: 1em 0em 1em 0em;
 	border-top: none;
 }
 
-
-
-
-
-
-/*nav ol {
-	overflow: hidden;
-	padding: 0;
-}
-
-nav li {
-	font-family: 'Merriweather', serif;
-	text-align: center;
-	margin: 0;
-	width: 33.3333%;
-	text-decoration: ;
-	display: block;
-	float: left;
-	list-style-type: none;
-	display: inline-block;
-	overflow: hidden;
-	float: left;
-}*/
 
 p {
 	line-height:1.5;
@@ -95,7 +58,7 @@ clear: right;
 }
 
 em {
-	xcolor: black;
+	color: black;
 	font-weight: bold;
 }
 
@@ -105,21 +68,9 @@ img {
 }
 
 
-figure {
-	position: relative;
-	text-align: center;
-	background-color: ;
-	border: none;
-	border-color: ;
-	border-radius: 0;
-	padding: 0;
-	margin: 0em;
-}
-
 
 
 footer {
-	background-color: ;
 	text-align: center;
 	padding: 2em 1em 2em 1em ;
 	background-color: #222222;
@@ -206,12 +157,12 @@ ol {
 
 .dheader {
 	background-color: #e7001d;
-	postion: relative;
+	position: relative;
 	padding: 0;
 }
 
 .pdragon{
-font-style: italics;}
+font-style: italic;}
 
 
 .dsymbol{
@@ -220,6 +171,7 @@ font-style: italics;}
 	clear: left;
 
 }
+
 .dragon {
 		float: right;
 	width: 50%;
@@ -296,7 +248,6 @@ font-style: italics;}
 }
 
 
-
 .ox {
 		float: left;
 	width: 50%;
@@ -323,32 +274,7 @@ font-style: italics;}
 
 }
 
-a:hover {
-	background-color: ;
-}
 
-. {
-	float:left;
-	width: ;
-	margin-right: 15px;
-	margin-bottom: 15px;
-
-}
-
-.{
-	float: right;
-	width: 35%;
-	margin-right: 15px;
-	clear: left;
-}
-
-
-{
-	float:right;
-	width: 25%;
-	margin-right: 15px;
-
-}
 
 .clear-it {
 	clear: right;
