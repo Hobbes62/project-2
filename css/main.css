@@ -1,0 +1,376 @@
+html {
+	box-sizing; border-box
+}
+
+
+*, *::before, *, *::after {
+ 	box-sizing; inherit;
+ }
+
+ body {
+	margin: ;
+	font-family: ;
+}
+
+main {
+	margin: ;
+}
+
+header {
+	font-family: , serif;
+	background-color: ;
+	color: ;
+	padding: .2em 1em 1em 1em;
+	margin: 0em;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+h1 {
+	font-size: 3rem;
+	font-style: italic;
+
+	font-family: , serif;
+
+
+	text-align: center;
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: 1.5em;
+	color: white;
+
+}
+
+
+h2 {
+	color: ;
+	background-color: ;
+	font-family: , serif;
+	font-weight: ;
+	font-size: 2rem;
+	font-style: ;
+	text-decoration: none;
+	line-height:;
+	text-align: center;
+	padding: 1em 0em 1em 0em;
+	border-top: none;
+}
+
+
+
+nav {
+	font-weight: normal;
+	color: ;
+	font-family: , serif;
+	background-color: ;
+	text-align: center;
+	padding: 0em;
+	text-decoration: none;}
+
+	nav ol {
+		overflow: hidden;
+		margin: auto;
+		padding: 0;
+		width:100%;
+	}
+
+	nav li {
+		width: ;
+		text-align: center;
+		float:left;
+	}
+
+/*nav ol {
+	overflow: hidden;
+	padding: 0;
+}
+
+nav li {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin: 0;
+	width: 33.3333%;
+	text-decoration: ;
+	display: block;
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}*/
+
+
+
+nav a{
+	padding: 1em .75em;
+	background-color: ;
+	color: ;
+	text-decoration: none;
+	font-weight: normal;
+	display: block;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	margin: 0em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+p {
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 1rem;
+	text-decoration: none;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+div {
+overflow: hidden;
+background-color: white;
+margin: 0em;
+clear: right;
+}
+
+em {
+	xcolor: black;
+	font-weight: bold;
+}
+
+
+img {
+	width: 100%;
+}
+
+
+figure {
+	text-align: center;
+	background-color: ;
+	border: solid;
+	border-color: ;
+	border-radius: 10px;
+	padding: 1em 1em 1em 1em;
+	margin: 0em;
+}
+
+figcaption {
+	font-style: ;
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: , serif;
+	color: ;
+
+}
+
+li {
+	line-height:1.5;
+	font-weight: none;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: , serif;;
+	text-align: left;
+	list-style-type:none;
+}
+
+
+footer {
+	background-color: ;
+	text-align: center;
+	padding: 2em 1em 2em 1em ;
+	background-color: #222222;
+	clear: both;
+}
+
+
+
+/* CLASSES AND HOVERS< */
+
+. {
+	clear: left;}
+
+.dnav {
+	background-color: #222222}
+
+.chinese{
+
+}
+
+.dheader {
+	background-color: #e7001d;
+	margin: 0 auto;
+	postion: relative;
+}
+
+.pdragon{
+font-style: italics;}
+
+
+.dsymbol{
+	float: left;
+	width: 50%;
+	clear: left;
+
+}
+.dragon {
+		float: right;
+	width: 50%;
+	clear: right;
+}
+
+.ddiv {
+	background-color: #e4c22a;
+	margin: 0 auto;
+
+}
+
+.tgoat {
+	color: white;
+}
+
+.pgoat{
+	color: white;
+		font-style: italic;
+}
+
+.gsymbol{
+		float: right;
+	width: 50%;
+	clear: right;
+}
+
+.goat {
+	float: left;
+	width: 50%;
+	clear: left;
+
+}
+
+.gdiv {
+		background-color: #222222;
+		margin: 0 auto;
+
+}
+
+.trooster {
+	color: white;
+}
+
+.prooster{
+	color: white;
+	font-style: italic;
+}
+
+
+.rsymbol{
+	float: left;
+	width: 50%;
+	clear: left;
+}
+
+.rooster {
+	float: right;
+	width: 50%;
+	clear: right;
+
+}
+
+.rdiv {
+	background-color: #e7001d;
+		margin: 0 auto;
+}
+
+.osymbol{
+		float: right;
+	width: 50%;
+	clear: right;
+
+}
+
+
+
+.ox {
+		float: left;
+	width: 50%;
+	clear: left;
+
+}
+
+.pox {
+	font-style: italic;
+}
+.odiv {
+	background-color: #e4c22a;
+	margin: 0 auto;
+}
+
+
+.medallion {
+	width: 10%;
+
+}
+
+a:hover {
+	background-color: ;
+}
+
+. {
+	float:left;
+	width: ;
+	margin-right: 15px;
+	margin-bottom: 15px;
+
+}
+
+.{
+	float: right;
+	width: 35%;
+	margin-right: 15px;
+	clear: left;
+}
+
+	float:right;
+	width:35%;
+	margin-right: 15px;
+}
+{
+	float:left;
+	width: 25%;
+	margin-right: 15px;
+}
+
+{
+	float:right;
+	width: 25%;
+	margin-right: 15px;
+
+}
+
+.clear-it {
+	clear: right;
+	}
+
+{
+	float: left;
+	width: 25%;
+	margin-right: 15px;
+
+}
+
+.dfooter{
+			background-color: #222222;
+		margin: 0 auto;
+}
+
+
+
+position: relative;/* allows you to move the box as if its in the flow */
+position: absolute;/* you position it against its partent element, thus body element that divs go into
+you can give 'h' postion: absolute aswell however it moves relativeot its parent, and thus the parent has to be a relative.
+*/
+
+position: fixed; /* allows you to remove things form the flow and fix it ot the window you are viewin it on . therefor if yo uscroll down it wont move.
+*/
