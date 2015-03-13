@@ -1,15 +1,15 @@
 html {
-	box-sizing; border-box
+	box-sizing: border-box;
 }
 
 
-*, *::before, *, *::after {
- 	box-sizing; inherit;
+*, *::before, *::after {
+ 	box-sizing: inherit;
  }
 
  body {
-	margin: ;
-	font-family: ;
+	margin: 0;
+	padding: 0;
 }
 
 main {
@@ -20,7 +20,6 @@ header {
 	font-family: , serif;
 	background-color: ;
 	color: ;
-	padding: .2em 1em 1em 1em;
 	margin: 0em;
 	text-align: center;
 	text-decoration: none;
@@ -28,12 +27,7 @@ header {
 
 
 h1 {
-	font-size: 3rem;
-	font-style: italic;
-
-	font-family: , serif;
-
-
+	font-family: 'Noto Sans', sans-serif;
 	text-align: center;
 	position: relative;
 	display: block;
@@ -47,7 +41,7 @@ h1 {
 h2 {
 	color: ;
 	background-color: ;
-	font-family: , serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: ;
 	font-size: 2rem;
 	font-style: ;
@@ -60,27 +54,8 @@ h2 {
 
 
 
-nav {
-	font-weight: normal;
-	color: ;
-	font-family: , serif;
-	background-color: ;
-	text-align: center;
-	padding: 0em;
-	text-decoration: none;}
 
-	nav ol {
-		overflow: hidden;
-		margin: auto;
-		padding: 0;
-		width:100%;
-	}
 
-	nav li {
-		width: ;
-		text-align: center;
-		float:left;
-	}
 
 /*nav ol {
 	overflow: hidden;
@@ -101,22 +76,6 @@ nav li {
 	float: left;
 }*/
 
-
-
-nav a{
-	padding: 1em .75em;
-	background-color: ;
-	color: ;
-	text-decoration: none;
-	font-weight: normal;
-	display: block;
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	margin: 0em;
-	padding: 0.5em 0.5em 0.5em 0.5em;
-}
-
-
 p {
 	line-height:1.5;
 	font-weight: normal;
@@ -124,6 +83,7 @@ p {
 	text-decoration: none;
 	margin-top: 0;
 	text-align: center;
+	font-size: 0.5em;
 	font-family: 'Noto Sans', sans-serif;
 }
 
@@ -146,34 +106,26 @@ img {
 
 
 figure {
+	position: relative;
 	text-align: center;
 	background-color: ;
-	border: solid;
+	border: none;
 	border-color: ;
-	border-radius: 10px;
-	padding: 1em 1em 1em 1em;
+	border-radius: 0;
+	padding: 0;
 	margin: 0em;
 }
 
 figcaption {
-	font-style: ;
 	line-height:1.5;
 	font-weight: normal;
 	font-size: 1rem;
 	text-decoration: none;
-	font-family: , serif;
 	color: ;
+	font-family: 'Noto Sans', sans-serif;
+	overflow: hidden;
 
-}
 
-li {
-	line-height:1.5;
-	font-weight: none;
-	font-size: 1rem;
-	text-decoration: none;
-	font-family: , serif;;
-	text-align: left;
-	list-style-type:none;
 }
 
 
@@ -185,24 +137,85 @@ footer {
 	clear: both;
 }
 
-
+ol {
+	text-align: left;
+	margin:0;
+	width: 100%;
+	padding: 0;
+}
 
 /* CLASSES AND HOVERS< */
 
 . {
 	clear: left;}
 
+.bdiv {
+		background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner {
+	position: relative;
+	width: 100%;
+}
+	.shengxiao {
+	position: absolute;
+	bottom: 10%;
+	top: 13em;
+	left: 12em;
+	text-align: center;
+	color: white;
+	display: inline-block;
+
+	}
+
 .dnav {
-	background-color: #222222}
+	background-color: #222222;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.dnav li {
+	float: left;
+	width: 50%;
+	border: solid 1px black;
+	padding: 1em;
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+		font-family: 'Noto Sans', sans-serif;
+}
+
+.firstrow {
+	text-decoration: none;
+	color: white;
+	bottom: .5em;
+
+}
+
+.secondrow {
+	text-decoration: none;
+	color: white;
+	bottom: .5em;
+
+}
 
 .chinese{
+	color: white;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	bottom: 1.5em;
+	display: block;
 
 }
 
 .dheader {
 	background-color: #e7001d;
-	margin: 0 auto;
 	postion: relative;
+	padding: 0;
 }
 
 .pdragon{
@@ -309,7 +322,12 @@ font-style: italics;}
 
 
 .medallion {
-	width: 10%;
+	width: 66px;
+	position: relative;
+	display: block;
+	top: 40px;
+	margin: 0 auto;
+
 
 }
 
@@ -332,15 +350,6 @@ a:hover {
 	clear: left;
 }
 
-	float:right;
-	width:35%;
-	margin-right: 15px;
-}
-{
-	float:left;
-	width: 25%;
-	margin-right: 15px;
-}
 
 {
 	float:right;
@@ -353,18 +362,21 @@ a:hover {
 	clear: right;
 	}
 
-{
-	float: left;
-	width: 25%;
-	margin-right: 15px;
-
-}
 
 .dfooter{
-			background-color: #222222;
-		margin: 0 auto;
+	background-color: #222222;
+	margin: 0 auto;
 }
 
+.back {
+		margin: 0 auto;
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
+
+}
+footer a {
+text-decoration: underline;
+color: #fff;}
 
 
 position: relative;/* allows you to move the box as if its in the flow */
